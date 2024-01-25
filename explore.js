@@ -39,7 +39,7 @@ showSlides((slideIndex = n));
 // Function to automatically advance slides
 function autoSlide() {
 plusSlides(1);
-setTimeout(autoSlide, 2000); // Adjust the time (in milliseconds) between slides
+setTimeout(autoSlide, 2000); 
 }
 
 // Initial slide display and start automatic slideshow
