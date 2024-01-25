@@ -13,7 +13,6 @@
     --second-bg-color: #202020;
     --text-color: #fff;
     --second-color: #ccc;
-    /*--main-color: #ff4d05; */
     --main-color: #FAEF5D;
     --big-font: 5rem
     --h2-font: 3rem;
@@ -66,10 +65,6 @@ span{
 .navlist a:hover{
     color: var(--main-color); 
 }
-
-/*.navlist a.active{
-    color: var(--main-color); 
-} */
 
 #menu-icon{
     font-size: 35px;
@@ -145,15 +140,6 @@ section{
     font-family: 'calibri';
 }
 
-/*about section
-section.about-section {
-    background-image: url(../images/lion.jpg);
-    padding-bottom: 570px;
-    padding-top: 115px;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
 /*about section*/
 .abt-section {
     display: flex;
@@ -172,12 +158,12 @@ section.about-section {
 
 @media (max-width: 500px) {
     .abt-img {
-        max-width: 100%; /* Make sure the image doesn't overflow its container */
+        max-width: 100%; 
     }
 }
 
 .indented-text {
-    text-indent: 30px; /* Adjust the value to set the desired indentation */
+    text-indent: 30px; 
 }
 
 section.about-section {
@@ -190,9 +176,9 @@ section.about-section {
 
 @media (max-width: 600px) {
     section.about-section {
-        background-attachment: fixed; /* Change background-attachment for better mobile performance */
-        padding-bottom: 100px; /* Adjust padding for smaller screens */
-        padding-top: 80px; /* Adjust padding for smaller screens */
+        background-attachment: fixed; 
+        padding-bottom: 100px; 
+        padding-top: 80px; 
     }
 }
 
@@ -445,8 +431,6 @@ section#earn {
 .add-box {
     padding: 4px;
     margin: 10px;
-    /*background-color: rgba(200, 200, 200, 0.822); 
-    background-color: gray; */
     background-color: rgba(100, 100, 100, 0.7);
     border-radius: 10px; 
 }
